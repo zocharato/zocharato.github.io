@@ -1,0 +1,21 @@
+Para responder às perguntas na lousa:
+
+1. **Qual a diferença entre as tags `<b>` e `<p>`?**
+   - A tag `<b>` é usada para tornar o texto em negrito, ou seja, para destacar uma parte do texto. Não adiciona nenhum significado semântico extra ao texto. Exemplo: `<b>negrito</b>`.
+   - A tag `<p>` é usada para definir um parágrafo de texto. Ela cria uma separação de bloco no texto, adicionando um espaço antes e depois do parágrafo. Exemplo: `<p>Este é um parágrafo.</p>`.
+
+2. **Qual o erro na linha de código `<p><center>texto </p></center>`?**
+   - O erro está na hierarquia incorreta de tags. A tag `<center>` deve ser fechada antes da tag `<p>` ser fechada. O correto seria:
+     ```html
+     <p><center>texto</center></p>
+     ```
+     Ou:
+     ```html
+     <center><p>texto</p></center>
+     ```
+
+3. **Explique como funciona a tag `<a href>`?**
+   - A tag `<a>` é usada para criar links em HTML. O atributo `href` especifica o destino do link, que pode ser um URL de uma página web ou um local dentro da mesma página. Quando um usuário clica no link, ele é levado para o destino especificado. Exemplo:
+     ```html
+     <a href="https://www.example.com">Clique aqui</a>
+     ```
